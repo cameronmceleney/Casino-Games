@@ -194,3 +194,7 @@ class Casino:
         self.total_stake = 0.0
         self.total_payout = 0.0
         self.wins = 0
+
+if __name__ == "__main__":
+    game = Casino("keno", "keno-slip.yml")
+    game.play()

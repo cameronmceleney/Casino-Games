@@ -9,13 +9,6 @@ Leading paragraphs explaining file in more detail.
 
 Attributes:
     (Here, place any module-scope constants users will import.)
-    
-Constants:
-    MODULE_LEVEL_CONSTANT1 (int): A module-level constant.
-
-Examples:
-    (Here, place useful implementations of the contents of main.py). Note that leading symbol '>>>' includes the 
-    code in doctests, while '$' does not.)::
 
 (
 Trailing paragraphs summarising final details.
@@ -53,5 +46,3 @@ from src.casino import Casino
 if __name__ == "__main__":
     casino = Casino(game="keno", slip_name="keno-slip.yml")
     casino.play()
-
-
