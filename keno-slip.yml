@@ -1,0 +1,5 @@
+# ~/keno-slip.yml
+spots: 10
+bet: 5
+games: 100
+numbers: [2, 11, 7, 20, 56, 3, 17, 8, 68, 39]
